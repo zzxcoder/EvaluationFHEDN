@@ -1,6 +1,6 @@
 # EvaluationFHEDN
 The face detector uses deep convolutional neural network built on Caffe.  
-1、Please install SSD-Caffe (https://github.com/weiliu89/caffe/tree/ssd), and then prepare the training dataset, i.e. WIDER FACE (http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/WiderFace_Results.html). The testing datasets include AFW, FDDB, PASCAL and WIDER FACE val.
+1、Please install SSD-Caffe (https://github.com/weiliu89/caffe/tree/ssd), and the pre-trained model for training is also provided by the previous websit. Then, please prepare the training dataset, i.e. WIDER FACE (http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/WiderFace_Results.html). The testing datasets include AFW, FDDB, PASCAL and WIDER FACE val.
 
 2、The training script files are saved in the folder named as models/FHEDN_512x512. The weight of network trained by us is available on https://pan.baidu.com/s/1V4C4R2pobGdFSHjZXzhAHw (Extraction code: owj7)
 
