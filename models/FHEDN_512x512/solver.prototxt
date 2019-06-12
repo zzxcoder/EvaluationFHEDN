@@ -1,0 +1,26 @@
+train_net: "models/FHEDN_512x512/train.prototxt"
+test_net: "models/FHEDN_512x512/test.prototxt"
+test_iter: 3226
+test_interval: 920 
+base_lr: 0.0010000000475
+display: 10
+max_iter: 312800
+lr_policy: "multistep"
+gamma: 0.223607
+momentum: 0.899999976158
+weight_decay: 0.000500000023749
+snapshot: 920 
+snapshot_prefix: "models/FHEDN_512x512/weights/VGG_WIDERFACE_FHEDN_512x512"
+solver_mode: GPU
+device_id: 0
+debug_info: false
+snapshot_after_train: true
+test_initialization: false
+average_loss: 10
+stepvalue: 193200
+stepvalue: 285200
+iter_size: 1
+type: "SGD"
+eval_type: "detection"
+ap_version: "Integral"
+
